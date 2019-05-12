@@ -1,4 +1,6 @@
 import React from 'react';
+import HelloWorld from './component/HelloWorld';
+
 import logo from './logo.svg';
 import './App.scss';
 
@@ -18,6 +20,7 @@ const App: React.FC = () => {
         >
           Learn React
         </a>
+        <HelloWorld />
       </header>
     </div>
   );
