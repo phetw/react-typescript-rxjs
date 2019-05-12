@@ -54,7 +54,7 @@ export default class HelloWorld extends Component<any, IState> {
         <h1>Rxjs</h1>
         <h2>{this.state.numbers}</h2>
         <p>{this.state.done ? 'Done counting !' : ''}</p>
-        <button onClick={this.destroyCounter}>Reset Counter</button>
+        <button onClick={this.destroyCounter}>Stop Counter</button>
       </section>
     );
   }
