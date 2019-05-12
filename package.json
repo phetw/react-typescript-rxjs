@@ -1,6 +1,7 @@
 {
   "name": "react-ts-rxjs",
   "version": "0.0.0",
+  "license": "MIT",
   "author": "Wasuwat Limsuparhat<wasuwat.se@gmail.com>",
   "dependencies": {
     "@types/jest": "24.0.12",
